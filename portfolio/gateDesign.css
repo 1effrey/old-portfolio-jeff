@@ -1,0 +1,25 @@
+body{
+  background-color:black;
+  font-family: 'hack', monospace;
+}
+
+.btn{
+  color: aqua;
+  padding: 20px 36px;
+  cursor:pointer;
+  border: 5px solid rgb(65, 2, 75);
+  box-shadow:5px 5px 0 0 black,
+  10px 10px 0 0 rgb(65, 2, 75);
+  transition-duration: 350ms;
+}
+
+.btn:hover{
+  box-shadow: 8px 8px black, 20px 20px 0 0 rgb(65, 2, 75);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+}
